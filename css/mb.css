@@ -1,0 +1,152 @@
+.hideonpc {display: none;}
+.hideonmb {display: inherit;}
+@media (max-width: 1100px) {
+
+	.fixbody {min-width: 100%;}
+	.leftd {float: left; }
+	.rightd {float: right; }
+	/* */
+	.w_header {height: inherit; }
+	.menunav .manu ul li a {padding: 20px 5px 20px 5px;}
+	.header_number {color: #05ACD9; padding: 15px 0px; font-size: 13px}
+	/* */
+
+}
+
+@media (max-width: 950px) {
+	/* */
+	.bluediv {margin-top: 0px; background-position: 0px -10px;}
+  	.in_bluediv .drightd {width: 50%;}
+  	.in_bluediv .dleftd {margin-top: -128px;}
+}
+
+@media (max-width: 800px) {
+	.fixbody {padding: 30px;}
+	.hideonpc {display: inherit;}
+	.hideonmb {display: none;}
+	.rightd , .leftd {float: inherit; width: 100%; text-align: center;}
+	.in_after_center .dleftd , .in_after_center .drightd, .in_bluediv .drightd {width: 98%;}
+	.in_after_center .dleftd .after_center_download {margin: 30px auto;}
+	.in_bluediv .dleftd {margin-top: 13px;}
+	.in_bluediv .drightd p.title {padding-top: 0px;}
+	.in_features h1 {font-size: 30px;}
+	.in_features p {font-size: 15px;}
+	.ul_features {margin-left: 5px;}
+	.ul_features li {width: 33%;}
+	#footer .section {width: 82%;}
+    .in_bluediv .drightd .bluediv_download {margin-top: 30px; z-index: 1; position: relative; }
+	.bluediv_download img { width: 90%;}
+    .reseller_page p.textabt_reseller {padding: 10px;}
+    .in_reseller h1 {font-size: 20px;margin-top: 24px;}
+    .reseller_page p.textabt22_reseller {padding: 15px;}    
+    .in_reseller h1 img {vertical-align: middle; display: block; margin: 0 auto;}
+    .reseller_page p.textabt_reseller {font-size: 13px;}
+    .infocontact_header {width: 99%; top: 21%; left: 0;}
+    .contact_page {height: 300px;}
+    .in_after_center .drightd img {margin: 50px auto;}
+
+    .in_reseller .reseller_btnn {width: 100%;}
+    
+    
+    
+.wasnic {text-align: center; width:100%; margin:0 auto; }
+.wasnic h1 { font-size:30px; text-align:center; color: #5C6063; margin-top: 156px; }
+.wasnic p { font-size:16px;  width:100%;  padding:11px; text-align:left; margin-top:13px; }
+
+    
+.wasnic2 {text-align: center; width:100%; margin:0 auto; }
+.wasnic2 h1 { font-size:20px; text-align:center; color: #5C6063; margin-top: 30px; }
+    
+    .saleshide {  visibility:hidden;}
+}
+
+
+
+
+@media (max-width: 600px) {
+
+
+
+	.ul_features {margin-left: 21px;}
+	.ul_features li { text-align: center;}
+	.in_reseller .reseller_img img {width: 90%;}
+	#footer .menu li.expanded {width: 100%; display: block; margin: 14px auto;}
+	.ul_features li img {display: block; margin: 5px auto;}
+	.in_bluediv .dleftd img {width: 63%; margin: -20px auto;}
+	.w_center {height: 250px;}
+	.reseller {margin-top: -100px;}
+	.infocontact_header table tr td {padding: 13px 0px; display: block;}
+	.features{ border:0px; background: #ffffff;   }
+	.tihidBlueBar { background-color: #27506E;   height: 66px;  border-bottom: 1px solid #133783;  width: 100%;  }
+	.tihidBlueBar i{    margin: 20px 25px 0px 6%; }
+	.IMG{ display:none }
+	.Mob { width:100% !important; display:block !important } 
+	
+	
+	
+	
+	
+	
+.we3 {    
+    text-align: center;
+         color:#414141;
+ ;
+     font-size:16px;
+     width: 100%;     direction:rtl;
+      margin-top:30px; height:700px;
+    }
+
+
+
+.ce1 {
+    width: 100%;     height: 50%;}
+.ce2 {
+    width: 100%;     height: 50%; 
+
+}
+.ce3 {
+    width: 100%; margin:0 auto;
+}
+
+.ce2 h3 { font-size:16px;
+ font-weight:normal; line-height:30px;				
+}
+.ce1 h3 { font-size:16px;
+ 
+ font-weight:normal; line-height:30px;				
+}
+
+.mocx { display:none;
+				
+}
+
+	
+
+
+
+
+
+
+
+
+	
+	.mocdnl {width: 100%;  margin: 0 auto; margin-top:33px;}
+.mocdnl1{ width: 100%; float: left; direction:ltr; padding:10px; }
+.mocdnl1 h1{ font-size:15px; font-weight:normal; line-height:40px;   }
+.mocdnl1 h3{ font-size:17px; margin-bottom:-1px;color:#5C6063;}     
+.mocdnl2{float: left;}
+.hrdnl { width:80%; margin:0 auto; margin-top:24px;; margin-bottom:20px;}
+.iconpc1{  float: left; width:0px; height:0px;}
+
+	.saleshide { display:none;
+				
+}
+	
+	
+	
+	
+	
+	
+	
+	
+}

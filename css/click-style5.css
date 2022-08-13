@@ -1,0 +1,211 @@
+body .ck-pricing {
+	font-family: 'Ubuntu', sans-serif; font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7; margin-top:50px;
+}
+.ck-pricing h6 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h5 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h4 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h3 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h2 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h1 {	
+	font-family: 'Ubuntu', sans-serif; font-weight: 700;
+    line-height: 1.3;
+	text-transform: uppercase;
+}
+.ck-pricing h1 {
+	font-size: 46px;
+}
+.ck-pricing h2 {
+	font-size: 38px;
+}
+.ck-pricing h3 {
+	font-size: 33px;
+}
+.ck-pricing h4{
+	font-size: 28px;
+}
+.ck-pricing h5 {
+	font-size: 23px;
+}
+.ck-pricing h6 {
+	font-size: 18px;
+}
+.ck-pricing ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.ck-pricing p {
+	font-family: 'Ubuntu', sans-serif; "font-size: 16px;";
+	line-height: 1.7;
+}
+.ck-section-title {
+	color: #666;
+}
+.ck-style-opt {
+	margin: 20px 0;
+}
+
+.ck-btn-lg {
+	color: #3498DB;
+	background-color: transparent;
+	border-radius: 0;
+	border-color: #3498DB;
+	font-weight: 700;
+	border: 2px solid #3498DB;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+}
+.ck-btn-default {
+	color: #3498DB;
+	background-color: transparent;
+	border-radius: 0;
+	border-color: #3498DB;
+	font-weight: 700;
+	border: 2px solid #3498DB;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+}
+.ck-btn-lg:hover {
+	color: #FFF;
+	background-color: #3498DB;	
+	border-color: #3498DB;
+}
+.ck-btn-default:hover {
+	color: #FFF;
+	background-color: #3498DB;	
+	border-color: #3498DB;
+}
+.ck-btn-invert {
+	color: #FFF;
+	background-color: #3498DB;
+	border-radius: 0;
+	border-color: #FFF;
+	font-weight: 700;
+	border: 2px solid #FFF;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;	
+}
+.ck-btn-invert:hover {
+	color: #3498DB;
+	background-color: #FFF;	
+	border: 2px solid #FFF;
+}
+
+.ck-style-13 .ck-price-block {
+	background-color: #FFF;
+	padding: 10px 0 10px;
+	border-radius: 20px;
+	border: 1px solid #333;
+	overflow: hidden; 
+	margin-bottom: 50px;
+	-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+.ck-style-13 .ck-price-block:hover {
+	box-shadow: 1px 1px 25px rgba(0,0,0,.5);
+	max-height: 100%;
+}
+.ck-style-13 .ck-price-block .ck-heading {
+	color: #FFF;
+	background-color:#3498DB;
+	font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+   margin-top: -10px;
+    line-height: 50px;
+    height: 50px;
+}
+.ck-style-13 .ck-price-details {
+    background-color:#3498DB;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    color: #FFF;   
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    padding-top: 15px;
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+}
+.ck-style-13 .ck-price-details .ck-currency {
+	font-weight: 700;
+	font-size: 33px;
+}
+.ck-style-13 .ck-price-details .ck-price {
+	font-weight: 700;
+	font-size: 46px;
+}
+.ck-style-13 .ck-price-details .ck-duration {
+	text-transform: capitalize;
+	font-size: 1em;
+	display: block;
+	margin-top: -10px;
+}
+.ck-style-13 .ck-details {
+	padding-bottom: 8px; margin-top: 20px;
+}
+.ck-style-13 .ck-details ul li {
+	padding: 12px 0;
+	color: #333;
+	 text-align:left; margin-left:12px;}
+.ck-style-13 .ck-special-price .ck-heading {
+ 	background-color:#333;
+}
+.ck-style-13 .ck-special-price .ck-price-details {
+ 	background-color:#333;
+}
+.ck-style-13 .ck-btn-default {
+	border-radius: 10px;  
+    border-color: #3498DB;
+    background-color: beige; margin-top:12px;
+}
+.ck-style-13 .ck-special-price .ck-btn-default {
+	color: #333;
+	border-color: #333;
+}
+.ck-style-13 .ck-special-price .ck-btn-default:hover {
+	color: #FFF;
+	border-color: #333;
+	background-color: #333;
+}
+
