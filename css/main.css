@@ -1,0 +1,162 @@
+
+section {
+    
+    width: 100%;
+    padding: 60px 0 40px 0;
+}
+
+section h1, section h2 {
+    font-size: 38px;
+}
+
+.mainS {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../img/home1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainS h1 {
+    color: #FF6462;
+    
+}
+
+.mainS p , .pcS p , .phoneS p{
+    font-size: 22px;
+    color: #145075;
+}
+
+.mainS a {
+    padding: 12px 90px;
+    background-color: #FF6462;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+.pcS ,.phoneS  {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: right;
+    background-color: F7FDFD;
+
+}
+
+.S-items {
+    display: flex;
+    column-gap: 8%;
+}
+
+.pcS a , .phoneS a {
+    background-color: #0772B3;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 20px;
+    font-size: 24px;
+}
+
+.phoneS {
+    background-color: #F4F8F7;
+}
+
+.phoneS .S-items {
+    column-gap: 30%;
+}
+
+.phoneS .first {
+    margin-bottom: 10px;
+}
+
+.phoneS .second {
+    background-color: unset;
+    border: 3px solid #0772B3 ;
+    color: #0772B3;
+}
+
+.videos h2 , .pcS h2 , .phoneS h2  {
+    color: #2EBEDD;
+}
+
+.videos {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E3F6FF;
+}
+
+#footer {
+    margin: 0;
+}
+
+.tihidMenu  {
+    z-index: -1;
+}
+
+
+@media (max-width: 1100px) {
+
+    .fixbody {
+        min-width: 90%;
+    }
+
+    .S-items img {
+        max-width: 400px;
+    }
+
+    .S-items {
+        width: 90%;
+    }
+
+    .mainS {
+        background-image: url(../img/homeS.svg);
+    }
+
+    .mainS p {
+        max-width: 310px;
+    }
+}
+
+@media (max-width: 807px) {
+    section h1, section h2 {
+        font-size: 22px;
+    }
+
+    section a, section p {
+        font-size: 14px;
+    }
+
+    .S-items {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    
+    .S-items img {
+        max-width: unset;
+   }
+
+   .mainS {
+    background-image: url(../img/homeXs.svg);
+   }
+
+   .mainS p {
+    max-width: 290px;
+   }
+
+   iframe {
+    max-width: 90%;
+   }
+}
+
+
+
+
+
