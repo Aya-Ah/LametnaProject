@@ -144,7 +144,7 @@ section h1, section h2 {
    }
 
    .mainS {
-    background-image: url(../img/homeXs.svg);
+    background-image: url(../img/homeXS.svg);
    }
 
    .mainS p {
@@ -156,6 +156,29 @@ section h1, section h2 {
    }
 }
 
+@media (max-width: 600px) {
+
+    .mainS {
+        background-image: url(../img/homeXXS.svg);
+    }
+
+    .mainSitems p , .mainSitems h1{
+        max-width: 180px;
+    }
+
+    .videos {
+        background-color: #E3F6FF;
+    }
+    
+    .mainS a , .pcS a , .phoneS a {
+            font-size: 14px;
+    }
+
+    .mainS a img , .pcS a img , .phoneS a img {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 
 
