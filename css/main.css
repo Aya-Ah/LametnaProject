@@ -14,7 +14,7 @@ section h1, section h2 {
     display: flex;
     align-items: center;
     justify-items: center;
-    background-image: url(../img/home1.svg);
+    background-image: url(../img/home.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,6 +22,10 @@ section h1, section h2 {
 .mainS h1 {
     color: #FF6462;
     
+}
+
+.mainS p {
+    max-width: 400px;
 }
 
 .mainS p , .pcS p , .phoneS p{
@@ -93,14 +97,11 @@ section h1, section h2 {
     background-color: #E3F6FF;
 }
 
+
 #footer {
     margin: 0;
+    background-color: #2EBEDD;
 }
-
-.tihidMenu  {
-    z-index: -1;
-}
-
 
 @media (max-width: 1100px) {
 
@@ -124,6 +125,74 @@ section h1, section h2 {
         max-width: 310px;
     }
 }
+
+
+#scroll-container {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    overflow: hidden;
+    color: #0772B3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 25s linear infinite;
+    -webkit-animation: my-animation 25s linear infinite;
+    animation: my-animation 25s linear infinite;
+}
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+}
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+}
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(1-00%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+
+  .whats-btn  {
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+.soon {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/soonA.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #DEEFEE;
+}
+
+
+
+
 
 @media (max-width: 807px) {
     section h1, section h2 {
@@ -154,6 +223,10 @@ section h1, section h2 {
    iframe {
     max-width: 90%;
    }
+
+   .soon {
+    height: 300px;
+   }
 }
 
 @media (max-width: 600px) {
@@ -163,7 +236,10 @@ section h1, section h2 {
     }
 
     .mainSitems p , .mainSitems h1{
-        max-width: 180px;
+        text-align: right;
+    }
+    .mainS a {
+        padding: 12px 42%;
     }
 
     .videos {
@@ -178,8 +254,31 @@ section h1, section h2 {
         width: 20px;
         height: 20px;
     }
-}
 
+    #footer li {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #footer .nolink {
+        font-size: 22px;
+    }
+
+    #footer .menu a  {
+        font-size: 20px;
+    }
+
+    #scroll-container {
+        border: 1px solid #eee;
+        border-radius: 3px;
+        overflow: hidden;
+        color: #0772B3;
+    }
+
+    .soon {
+        height: 200px;
+    }
+}
 
 
 

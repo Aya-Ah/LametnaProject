@@ -179,5 +179,27 @@
 <script type="text/javascript">
 $(function(){  $('body').append('<div class="body_fixeddiv"><div><div class="warrper_fixeddiv"><i class="fa fa-close fa-2x close_fixedbox"></i><div class="img_fixeddiv fixeddiv_ds"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/9.png" alt="" /></div></div></div></div>');  $(".body_fixeddiv").hide();$(".gimg_hnd").css("cursor","pointer");$(".gimg_hnd").click(function(){var text_img = $(this).attr("title");var src_img = $(this).attr("src");$(".body_fixeddiv").show(100);$(".img_fixeddiv img").attr("src", src_img);$(".text_fixeddiv p").html(text_img);});
 $(".close_fixedbox").click(function(){$(".body_fixeddiv").hide(100);});});</script>
+
+<style>
+  @media (max-width: 600px) {
+
+#footer li {
+    text-align: center;
+    font-size: 24px;
+}
+
+#footer .nolink {
+    font-size: 22px;
+}
+
+#footer .menu a  {
+    font-size: 20px;
+}
+}
+#footer {
+background-color: #2EBEDD;
+}
+</style>
+
 </body>
 </html>
