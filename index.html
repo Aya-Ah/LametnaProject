@@ -82,6 +82,11 @@
           <a href="download.html"> Download now</a>
         </div>
       </section>
+
+      <section class="slides2" style="padding: 0;">
+        <img name="slides"src="img/slide1.svg" alt="" class="slides" style="width: 100%;">
+      </section>
+
       <section class="pcS">
         <div class="fixbody S-items">
           <img name="slide"src="img/pc1.svg" alt="" class="slides">
@@ -245,8 +250,10 @@ $(".body_fixeddiv").hide(100);
 
 <script> 
         
-  var i = 0; 			
-  var images = [];	
+  var i = 0; 		
+  var j = 0; 	
+  var images = [];				
+  var images2 = [];	
   var time = 2500;
      
   // Image List
@@ -255,19 +262,34 @@ $(".body_fixeddiv").hide(100);
   images[2] = "img/pc3.svg";
   images[3] = "img/pc4.svg";
   images[4] = "img/pc5.svg";
+
+   // Image List2
+  images2[0] = "img/slide1.svg";
+  images2[1] = "img/slide2.svg";
+  images2[2] = "img/slide3.svg";
+  images2[3] = "img/slide4.svg";
+  images2[4] = "img/slide5.svg";
   
   // Change Image
   function changeImg(){
     document.slide.src = images[i];
     if(i < images.length - 1)
-     
           i++; 
      else 
-                 i=0;
+          i=0;
+    
+    document.slides.src = images2[j];
+    if(j < images2.length - 1)
+          j++; 
+     else 
+          j=0;
+
     setTimeout("changeImg()", time);
-      
+
   }
   window.onload=changeImg;
+
+  
              
   
       </script> <!--SlideShow -->
