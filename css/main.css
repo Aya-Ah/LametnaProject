@@ -85,16 +85,20 @@ section h1, section h2 {
     color: #0772B3;
 }
 
-.videos h2 , .pcS h2 , .phoneS h2  {
+.videos h2 , .pcS h2 , .phoneS h2 , .names h2 {
     color: #2EBEDD;
 }
 
-.videos {
+.videos , .names {
     display: flex;
     justify-items: center;
     align-items: center;
     text-align: center;
     background-color: #E3F6FF;
+}
+
+.names {
+    background-color: #F4F8F7;
 }
 
 
@@ -196,7 +200,7 @@ section h1, section h2 {
 
 @media (max-width: 807px) {
     section h1, section h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     section a, section p {
