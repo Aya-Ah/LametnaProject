@@ -132,13 +132,18 @@ section h1, section h2 {
 
 
 #scroll-container {
-    border: 1px solid #eee;
+    /*border: 1px solid #eee;*/
     border-radius: 3px;
     overflow: hidden;
     color: #0772B3;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    background-color: #E5FFFF;
+    font-family: sans-serif , cairo ;
+    font-size: 20px;
+    padding: 8px;
+
 }
   
 #scroll-text {
@@ -194,7 +199,19 @@ section h1, section h2 {
     background-color: #DEEFEE;
 }
 
+.slides2 {
+    background-color: #E5FFFF;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
 
+.slides1 {
+    width: 80%;
+
+}
 
 
 
@@ -231,6 +248,11 @@ section h1, section h2 {
    .soon {
     height: 300px;
    }
+
+   .slides1 {
+    width: 117%;
+    overflow: hidden;
+}
 }
 
 @media (max-width: 600px) {
@@ -282,6 +304,11 @@ section h1, section h2 {
     .soon {
         height: 200px;
     }
+
+    #scroll-container {
+        font-size: 16px;
+     }
+
 }
 
 
