@@ -189,7 +189,7 @@ body .ck-pricing {
 @media (max-width: 600px) {
 
 	.prices a {
-		font-size: 18px;
+		font-size: 12px;
 		border-radius: 10px;
 		padding:  10px 25px;
 		margin: 5px 0px 5px 10px;
@@ -200,7 +200,7 @@ body .ck-pricing {
 @media (max-width: 366px) {
 
 	.prices a {
-		font-size: 15px;
+
 		border-radius: 10px;
 		padding:  10px 10px;
 		margin: 5px 0px 5px 5px;
