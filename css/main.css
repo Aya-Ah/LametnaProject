@@ -109,7 +109,7 @@ section h1, section h2 {
 
 @media (max-width: 1187px){
     .fixbody {
-        max-width:958px ;
+        max-width:776px ;
     }
     .phoneS span {
         font-size: 16px;
