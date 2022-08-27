@@ -107,37 +107,6 @@ section h1, section h2 {
     background-color: #2EBEDD;
 }
 
-@media (max-width: 1187px){
-    .fixbody {
-        max-width:776px ;
-    }
-    .phoneS span {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1100px) {
-
-    .fixbody {
-        min-width: 90%;
-    }
-
-    .S-items img {
-        max-width: 400px;
-    }
-
-    .S-items {
-        width: 90%;
-    }
-
-    .mainS {
-        background-image: url(../img/homeS.svg);
-    }
-
-    .mainS p {
-        max-width: 310px;
-    }
-}
 
 
 #scroll-container {
@@ -222,6 +191,44 @@ section h1, section h2 {
 
 }
 
+.support {
+    background-color: #E5FFFF;
+}
+
+
+/*midea----------------------------------*/
+
+@media (max-width: 1187px){
+    .fixbody {
+        max-width:776px ;
+    }
+    .phoneS span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .fixbody {
+        min-width: 90%;
+    }
+
+    .S-items img {
+        max-width: 400px;
+    }
+
+    .S-items {
+        width: 90%;
+    }
+
+    .mainS {
+        background-image: url(../img/homeS.svg);
+    }
+
+    .mainS p {
+        max-width: 310px;
+    }
+}
 
 
 @media (max-width: 807px) {
@@ -261,7 +268,11 @@ section h1, section h2 {
    .slides1 {
     width: 117%;
     overflow: hidden;
-}
+    }
+
+    .root-btn {
+        max-width: 70%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -317,6 +328,10 @@ section h1, section h2 {
     #scroll-container {
         font-size: 16px;
      }
+
+    .root-btn {
+        margin-top: -50px;
+    }
 
 }
 
