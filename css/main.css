@@ -14,7 +14,7 @@ section h1, section h2 {
     display: flex;
     align-items: center;
     justify-items: center;
-    background-image: url(../img/home.svg);
+    background-image: url(../img/home1year.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -223,7 +223,7 @@ section h1, section h2 {
     }
 
     .mainS {
-        background-image: url(../img/homeS.svg);
+        background-image: url(../img/homeS1yearS.svg);
     }
 
     .mainS p {
@@ -251,7 +251,7 @@ section h1, section h2 {
    }
 
    .mainS {
-    background-image: url(../img/homeXS.svg);
+    background-image: url(../img/homeXS\ 11year.svg);
    }
 
    .mainS p {
@@ -279,7 +279,7 @@ section h1, section h2 {
 @media (max-width: 600px) {
 
     .mainS {
-        background-image: url(../img/homeXXS.svg);
+        background-image: url(../img/homeXXS\ 11yearXXS.svg);
     }
 
     .mainSitems p , .mainSitems h1{
