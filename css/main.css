@@ -12,11 +12,11 @@ section h1, section h2 {
 .mainS {
     height: 600px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-items: center;
-    background-image: url(../img/home1year.svg);
+    background-image: url(../img/homenew-lamtna.svg); /* pc*/
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 .mainS h1 {
@@ -34,10 +34,11 @@ section h1, section h2 {
 }
 
 .mainS a {
-    padding: 12px 90px;
-    background-color: #FF6462;
+    padding: 8px 55px;
+    margin: -20px 0 0 300px ;
+    background-color:  #FF6462;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     border-radius: 15px;
 }
 
@@ -223,7 +224,7 @@ section h1, section h2 {
     }
 
     .mainS {
-        background-image: url(../img/homeS1yearS.svg);
+        background-image: url(../img/homeSnew-lametnaS.svg); /* S */
     }
 
     .mainS p {
@@ -251,7 +252,7 @@ section h1, section h2 {
    }
 
    .mainS {
-    background-image: url(../img/homeXS\ 11year.svg);
+    background-image: url(../img/homeXS\ 2new-lametnaXS.svg); /* xs*/
    }
 
    .mainS p {
@@ -279,14 +280,16 @@ section h1, section h2 {
 @media (max-width: 600px) {
 
     .mainS {
-        background-image: url(../img/homeXXS\ 11yearXXS.svg);
+        background-image: url(../img/homeXXS\ 2new-lametnaXXS.svg); /* xxs*/
     }
 
     .mainSitems p , .mainSitems h1{
         text-align: right;
     }
     .mainS a {
-        padding: 12px 42%;
+        padding: 3px 20;
+        margin: -20px 0 0 -20px ;
+
     }
 
     .videos {
